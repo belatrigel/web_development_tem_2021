@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Örnek</title>
+</head>
+
+<body>
+
+    <h1>Forms Örneğim</h1>
+
+    <form action="./1_wellcome.html" method="GET">
+        <div>
+            <label for="ad">Lütfen Adınızı Giriniz : </label>
+            <input name="user" type="text" id="ad" placeholder="lütfen adınızı girin">
+        </div>
+        <div>
+            <label for="passme">Lütfen Şifrenizi Giriniz :
+                <input name="pass" id="passme" type="password" placeholder="şifreniz"></label>
+        </div>
+        <div>
+            <label for="renk">Renginiz nedir : </label>
+            <input name="color" id="renk" type="color">
+        </div>
+        <div>
+            <label for="tarih">Tarih Giriniz : </label>
+            <input name="tarih" id="tarih" type="date">
+        </div>
+        <div>
+            <label for="zaman">Saat Giriniz : </label>
+            <input name="zaman" id="zaman" type="time">
+        </div>
+
+        <div>
+            <label for="sayi">Uğurlu Sayınız : </label>
+            <input name="sayi" type="number" placeholder="tam sayı girin" id="sayi">
+        </div>
+
+        <button type="button">Not Submit</button>
+        <!-- <button type="submit">Submit Form</button> -->
+        <button>Submit Form</button>
+        <input type="submit" value="input Form gönder">
+
+
+
+    </form>
+
+    <button>bu ise form dışında</button>
+    <p></p>
+    <p></p>
+    <p></p>
+    <form action="https://www.reddit.com/search">
+        <div>
+            <label for="reddit">Reddit Araması : </label>
+            <input type="text" id="reddit" name="q" placeholder="Arama kelimesi giriniz" required="True">
+            <button>Reddit Git</button>
+        </div>
+    </form>
+
+    <form action="https://www.google.com/search">
+        <label for="google">Keyword Giriniz : </label>
+        <input type="text" name="q" id="google">
+        <input type="submit" value="google search">
+    </form>
+
+    <form action="https://www.youtube.com/results">
+        <label for="youtube">Keyword Giriniz : </label>
+        <input type="text" name="search_query" id="youtube">
+        <button>Search Youtube</button>
+    </form>
+
+    <h2>Checkbox Box</h2>
+    <form action="2_about_me.html">
+        <p>What is you favırite veg</p>
+        <label for="elma">Elma</label>
+        <input type="checkbox" name="elma" id="elma">
+        <label for="muz">Muz</label>
+        <input type="checkbox" name="muz" id="muz" checked>
+
+        <p>Radio Buttons</p>
+        <label for="xl">Very Big</label>
+        <input type="radio" id="xl" name="size" value="3">
+        <label for="m">Medium</label>
+        <input type="radio" id="m" name="size" value="2">
+        <label for="s">small</label>
+        <input type="radio" id="s" name="size" value="1">
+
+
+        <div>
+            <p>Select Örneği</p>
+            <label for="selectme">Hangi Hayvan iyidir.</label>
+            <br>
+            <select name="animal" id="selectme">
+                <option value="1">Öküz</option>
+                <option value="2" selected>İnek</option>
+                <option value="3">Koyun</option>
+                <option value="4">Keçi</option>
+                <option value="5">Ayı</option>
+            </select>
+        </div>
+        <p>
+            Ne kadar oy verirsin?
+        </p>
+        <label for="oy">Oy Oranı : </label>
+        <input type="range" name="oy_orani" id="oy" min=0 max="100" step="5" value="50">
+        <br>
+
+
+        <div>Lütfen bir şeyler giriniz : <br>
+            <label for="textme">Aşağıya</label>
+            <textarea name="mesaj" id="textme" cols="50" rows="5">Gerekli</textarea>
+            <button>Submit</button>
+        </div>
+
+    </form>
+
+    <h1>Validations</h1>
+    <form action="deneme.html">
+        <div>
+            <label for="fn">First Name : </label>
+            <input type="text" id="fn" name="name" required>
+        </div>
+        <div>
+            <label for="usr">User Name : </label>
+            <input type="text" id="usr" name="user" minlength="5" max="20" required>
+        </div>
+        <div>
+            <label for="dt">Date : </label>
+            <input type="date" min="2021-07-01" name="tarih" max="2021-07-31" id="dt" step="1" required>
+        </div>
+        <div>
+            <label for="em">Elmek : </label>
+            <input type="email" id="em" name="email" required>
+        </div>
+
+        <div>
+            <label for="uname">Choose a pass: </label>
+            <input type="password" id="uname" name="ps" required size="45" pattern="([a-z0-9]{4,8})*&+"
+                title="4-8 arası lower ve harf en sona bir veya daha fazla & mu">
+            <p>Usernames must be lowercase and 4-8 characters in length.</p>
+        </div>
+        <div>
+            <label for="url">URL : </label>
+            <input type="url" id="url" name="myurl" required>
+        </div>
+
+        <p><button>Submit</button></p>
+
+    </form>
+
+</body>
+
+</html>
