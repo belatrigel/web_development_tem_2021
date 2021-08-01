@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise forms rice</title>
+</head>
+
+<body>
+
+    <h1>Race Registraion!</h1>
+    <form action="5_forms.html">
+
+        <div>
+            <label for="fn">First Name : </label>
+            <input type="text" name="name" id="fn" required minlength="5" placeholder="İsim Giriniz : Emrah gibi">
+            <label for="ln">Last Name : </label>
+            <input type="text" name="lastn" id="ln" required minlength="3" placeholder="Soyisim Giriniz : Ergül gibi">
+        </div>
+        <br>
+        <br>
+        <div>
+            Select a Race :
+            <div>
+                <input type="radio" name="racetype" id="race1" value=1>
+                <label for="race1">Fun Run 5k</label>
+            </div>
+            <div>
+                <input type="radio" name="racetype" id="race2" value=2 checked>
+                <label for="race2">Half Marathon</label>
+            </div>
+            <div>
+                <input type="radio" name="racetype" id="race3" value=3>
+                <label for="race3">Full Marathon</label>
+            </div>
+        </div>
+        <div>
+            <label for="em">E-mail : </label>
+            <input type="email" name="email" id="em" required minlength="5">
+            <label for="pw">Pasword : </label>
+            <input type="password" name="passw" id="pw" required minlength="3">
+        </div>
+        <br>
+        <div>
+            <label for="age"> Select Age Group :</label>
+            <select name="age" id="age">
+                <option value="1">Under 18</option>
+                <option value="2">Btw 18-25</option>
+                <option value="3">Btw 26-38</option>
+                <option value="4">Btw 39-51</option>
+                <option value="5">Btw 52-65</option>
+                <option value="0" selected>Lütfen Yaş Seçiniz</option>
+            </select>
+        </div>
+
+        <p><button><b>Register</b></button></p>
+
+    </form>
+
+</body>
+
+</html>
