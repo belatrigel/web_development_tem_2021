@@ -1,0 +1,102 @@
+/* * {
+    color : red;
+    background-color : gray;
+} */
+
+h2 + button {
+    background-color: tomato;
+    font-size: 20px;
+}
+button {
+    font-size: 30px;
+}
+
+h1, h2 {
+    color : blue;
+}
+
+body {
+    background-color: #d4a373;
+}
+
+#search {
+    background-color: coral;
+}
+
+#siyah {
+    background-color : #d90429;
+    color: #e9edc9;
+    font-size: 35px;
+}
+
+span {
+    color: #283618;
+}
+
+.postme {
+    color : red;
+    background-color: rosybrown;
+    font-size: 25px;
+}
+
+a {
+    background-color: pink;
+}
+
+.postme a {
+    background-color: saddlebrown;
+}
+
+.sect a {
+    color : whitesmoke;
+}
+
+span a {
+    color : darkslateblue;
+}
+
+a {
+    color : #9d0208;
+}
+
+ul a {
+    color : black;
+}
+
+div + p {
+    background-color: yellowgreen;
+}
+
+li a:first-child {
+    background-color: whitesmoke;
+}
+
+footer > a:first-of-type {
+    background-color: red;
+    color : white;
+    font-size: 50px;
+}
+
+li + li {
+    color:red;
+}
+
+input {
+    color: blue;
+    font-size: 15px;
+}
+
+label {
+    color : red;
+    font-size: 30px;
+    background-color: blue;
+}
+
+input[type="password"] {
+    background-color: red;
+}
+
+a[href*="#"] {
+  font-size: 2em;
+}
+
