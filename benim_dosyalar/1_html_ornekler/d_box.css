@@ -1,0 +1,31 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #ffadad;
+}
+
+h1 {
+    width: 300px;
+    height: 150px;
+    background-color: magenta;
+}
+
+.div1 {
+    background-color: #e9c46a;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    /* box-sizing: border-box; */
+}
+
+.div2 {
+    background-color: #f4a261;
+    border : 5px double red;
+}
+.div3 {
+    background-color: #e76f51;
+    border : 8px dashed blue;
+    border-style: solid dashed;
+    border-right-color: saddlebrown;
+    border-radius: 50%;
+}
