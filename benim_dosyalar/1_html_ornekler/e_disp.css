@@ -1,0 +1,50 @@
+h1 {
+    background-color: magenta;
+    border: 2px solid black;
+    display: inline;
+    width: 200px;
+    height: 250px;
+}
+
+span {
+    background-color: blueviolet;
+    border: 1px dotted blue;
+    display: block;
+    width: 200px;
+    height: 150px;
+    padding: 40px 30px 50px;
+    margin: 100px 70px 25px;
+}
+
+span.inline {
+    display: inline;
+    background-color: red;
+    font-size: 24px;
+    width: 200px;
+    height: 150px;
+    padding: 10px 13px 5px;
+    margin: 1000px 70px 250px;
+}
+
+span.inline_block {
+    display: inline-block;
+    background-color: yellowgreen;
+    font-size: 24px;
+    width: 200px;
+    height: 150px;
+    padding: 400px 130px 50px;
+    margin: 1000px 70px 250px;
+}
+
+div {
+    background-color: blue;
+    border: 3px solid red;
+    display: inline-block;
+    width: 15%;
+    height: 300px;
+    margin: 0 30px;
+    padding: 20px 50px 100px 50px;
+    color: yellow;
+    font-weight: 800;
+    display: none;
+}
