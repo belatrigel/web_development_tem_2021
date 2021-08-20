@@ -1,0 +1,29 @@
+body {
+    
+    font-family: 'Rampart One', cursive;
+    font-size: 14px;
+    width: 70%;
+    text-align: justify;
+    margin: 0px auto;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1,h2,h3 {
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 + h2 {
+    margin-top: 0px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+
+
