@@ -1,0 +1,73 @@
+section.fixme {
+    background-color: #ffb703;
+    height: 500px;
+    width: 500px;
+}
+
+section.perme {
+    background-color: #e63946;
+    /* height: ;
+    width: ; */
+}
+
+.fixme div {
+    background-color: #a8dadc;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    border: 2px dashed black;
+    font-size: 40px;
+    line-height: 300%;
+   
+}
+
+h2 {
+    font-size: 2em;
+}
+
+article {
+    font-size: 30px;
+}
+
+p {
+    font-size: 0.5em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-left: 3em;
+}
+
+button {
+    font-size : 1em;
+    background-color: brown;
+    border: 1em solid red;
+    border-radius: 0.5em;
+    padding: 0px 5em;
+}
+
+ul {
+    font-size: 1.5em;
+}
+
+#rems ul {
+font-size: 1rem;
+}
+
+#rems button, h2, h3 {
+    font-size : 1.1rem;
+}
+
+#rems p {
+    font-size: 2rem;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 5px;
+}

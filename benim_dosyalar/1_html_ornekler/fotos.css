@@ -1,0 +1,21 @@
+img {
+    width: 30%;
+    /* margin: 1.666%; */
+    margin : calc(10% / 6);
+}
+
+nav {
+    width: 30%;
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+    margin-left: calc(10% / 6);
+    padding : 1em 0;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    transition: border-color 1s ease-out;
+}
+
+nav:hover {
+    border-color: blue;
+    
+}

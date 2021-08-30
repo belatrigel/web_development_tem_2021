@@ -1,0 +1,19 @@
+h3 {
+    color:aquamarine;
+    background-color: blue;
+}
+
+h4 {
+    color:crimson;
+    background-color: blue
+}
+
+a {
+    color: darkgreen;
+    background-color: red;
+}
+
+p {
+    color: #156683;
+    background-color: rgb(100,200,0);
+}

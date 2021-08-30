@@ -1,0 +1,23 @@
+section {
+    width: 80%;
+    height: 500px;
+    background-color: purple;
+    margin: 0 auto;
+    /* background-image: url("https://images.unsplash.com/photo-1585816614571-46ff1033d221?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80"); */
+    background: url("https://images.unsplash.com/photo-1585816614571-46ff1033d221?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80") center/contain no-repeat, url("https://images.unsplash.com/photo-1629456312128-7b50a6c6154e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80") right/contain no-repeat, url("https://images.unsplash.com/photo-1629233795924-59f9b058404a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80") left/contain no-repeat;
+    width: inherit;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: red;
+}
+
+div {
+    background-color: black;
+}

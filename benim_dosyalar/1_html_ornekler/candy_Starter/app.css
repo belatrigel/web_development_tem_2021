@@ -1,0 +1,82 @@
+body {
+    background-color: #f9d9df;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+}
+
+.txt h2 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #ea1c2c;
+}
+
+.txt p {
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: #f49868;
+    line-height: 2;
+}
+
+.cont {
+    margin-bottom: 100px;
+}
+
+nav > a {
+    text-transform: uppercase;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+}
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+#mainNavbar a.nav-link {
+    color: white;
+    font-weight: 400;
+}
+
+#mainNavbar a.nav-link:hover {
+    color: #ea1c2c;
+    font-weight: 400;
+}
+
+#headSpan span {
+        color: #ea1c2c;
+        font-weight: bolder;
+}
+
+#headSpan h2 {
+        font-size: 3.6rem;
+        font-weight: 200;
+        color : white;
+}
+
+@media (max-width : 1230px) {
+    #headSpan h2 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width : 955px) {
+    #headSpan h2 {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+}
+
+.navbar.scrolled {
+    background-color: rgb(22,66,99);
+    transition: background-color 1s;
+}
+
+#mainNavbar .navbar-brand.leylek {
+    color:white;
+    font-weight: 400;
+    transition: all 1s;
+}

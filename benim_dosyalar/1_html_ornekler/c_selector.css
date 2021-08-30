@@ -1,0 +1,254 @@
+/* * {
+    color : red;
+    background-color : gray;
+} */
+
+a {
+    text-decoration: none;
+}
+
+h2 + button:hover {
+    background-color: tomato;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: blue;
+}
+button {
+    font-size: 30px;
+    background-color: red;
+}
+
+h1, h2 {
+    color : blue;
+}
+
+body {
+    background-color: #d4a373;
+}
+
+#search {
+    background-color: coral;
+}
+
+#siyah {
+    background-color : #d90429;
+    color: #e9edc9;
+    font-size: 35px;
+}
+
+span {
+    color: #283618;
+}
+
+.postme {
+    color : red;
+    background-color: rosybrown;
+    font-size: 25px;
+}
+
+a {
+    background-color: pink;
+}
+
+.postme a:hover {
+    background-color: saddlebrown;
+    text-decoration: line-through black dashed;    
+}
+
+.sect a {
+    color : whitesmoke;
+}
+
+span a {
+    color : darkslateblue;
+}
+
+a {
+    color : #9d0208;
+}
+
+ul a {
+    color : black;
+}
+
+div + p {
+    background-color: yellowgreen;
+}
+
+
+
+footer > a {
+    background-color: red;
+    color : white;
+    font-size: 50px;
+}
+
+li + li {
+    color:red;
+}
+
+ol > li:nth-of-type(2n+1):hover {
+    background-color: blue;
+}
+
+input {
+    color: blue;
+    font-size: 15px;
+}
+
+label {
+    color : red;
+    font-size: 30px;
+    background-color: blue;
+}
+
+input[type="password"] {
+    background-color: red;
+}
+
+a[href*="#"] {
+  font-size: 2em;
+}
+
+.psd {
+    background-color: cadetblue;
+}
+
+.psd a:hover {
+  background-color: gold;
+}
+
+.psd a:link { color: blue; }          /* Unvisited links */
+.psd a:visited { color: black; }     /* Visited links */
+.psd a:hover { background: yellow; }  /* Hovered links */
+.psd a:active { color: red; }         /* Active links */
+
+p:active { background: #eee; }   /* Active paragraphs */
+
+#deneme a {
+    background-color: purple;
+    color : yellow;
+}
+
+
+
+div,
+select {
+  margin: 8px;
+}
+
+/* Labels for checked inputs */
+input:checked + label {
+  color: red;
+}
+
+/* Radio element, when checked */
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px rgb(150, 36, 93);
+}
+
+/* Checkbox element, when checked */
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+/* Option elements, when selected */
+option:checked {
+  box-shadow: 0 0 0 13px lime;
+  color: red;
+}
+
+/* Odd paragraphs */
+p:nth-of-type(2n+1) {
+  color: red;
+}
+
+/* Even paragraphs */
+p:nth-of-type(2n) {
+  color: blue;
+  font-weight: bold;
+}
+
+/* First paragraph */
+p:nth-of-type(1) {
+  font-weight: bold;
+}
+
+/* This will match the 3rd paragraph as it will match elements which are 2n+1 AND have a class of fancy.
+The second paragraph has a class of fancy but is not matched as it is not :nth-of-type(2n+1) */
+p.fancy:nth-of-type(2n+1) {
+  text-decoration: underline;
+}
+
+p.fancy:nth-of-type(2n) {
+  text-decoration: line-through;
+  color : black;
+}
+
+table > tbody tr:nth-of-type(2n+1) {
+    background-color: yellowgreen;
+}
+
+tbody {
+    background-color: white;
+}
+
+/* The first line of every <p> element. */
+p::first-line {
+  color: red;
+  text-transform: uppercase;
+}
+
+p::selection {
+/* background-color: black; */
+color : red;
+}
+
+.exciting-text::after {
+  content: " <- EXCITING!";
+  color: green;
+}
+
+.boring-text::after {
+  content: " <- BORING";
+  color: black;
+}
+
+span[data-descr] {
+  position: relative;
+  text-decoration: underline;
+  color: #00F;
+  cursor: help;
+}
+
+span[data-descr]:hover::after,
+span[data-descr]:focus::after {
+  /* content: attr(data-descr); */
+  content: url("C:\\YEDEKLEME_DOSYALARI\\RESİMLERİM\\79470023.jpg");
+  position: absolute;
+  left: 0;
+  top: -274px;
+  min-width: 200px;
+  border: 3px #aaaaaa solid;
+  border-radius: 10px;
+  background-color: #ffffcc;
+  padding: 12px;
+  color: #000000;
+  font-size: 14px;
+  z-index: 1;
+}
+
+h4, h5 {
+    background-color: red;
+}
+
+h5 {
+    background-color: blue;
+}
+
+button {
+  background-color: magenta !important;
+}
+

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1 class="display-1 text-center">STICKY BPY</h1>
+
+    <!-- As a link -->
+    <nav class="navbar navbar-dark bg-danger navbar-expand-md sticky-top border-5">
+
+
+        <div class="container col-10 d-flex flex-row justify-content-start">
+            <a class="navbar-brand mb-1 h1" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-target="#navbarNav" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="container d-flex flex-row justify-content-center"></div>
+            <div class="collapse navbar-collapse rounded-pill" id="navbarNav">
+
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Home <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                            <path fill-rule="evenodd"
+                                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                        </svg><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Features <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                            <path
+                                d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                        </svg></a>
+                    <a class="nav-link" href="#">Pricing <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-coin" viewBox="0 0 16 16">
+                            <path
+                                d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z" />
+                            <path fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path fill-rule="evenodd"
+                                d="M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+                        </svg></a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </div>
+
+                <form class="form-inline ml-auto d-flex flex-column align-items-start">
+                    <input class="form-control" type="search" placeholder="Search Baby">
+                    <button class="btn btn-outline-primary btn-warning text-dark" type="submit">
+                        Search ME
+                    </button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- As a heading
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Navbar</span>
+    </nav> -->
+
+
+
+
+    <h1 class="text-center display-2 text-info mt-5">GRID SYSTEM</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 bg-warning">
+                i am 6 units
+            </div>
+            <div class="col-6 bg-danger">i am 6 too</div>
+        </div>
+
+        <div class="row">
+            <div class="col-8 bg-warning">
+                i am 6 units
+            </div>
+            <div class="col-4 bg-danger">i am 6 too</div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 bg-info">
+                i am 2 units
+            </div>
+            <div class="col-8 bg-secondary">i am 8 too</div>
+            <div class="col-2 bg-primary">i am 2 too</div>
+
+
+
+
+
+        </div>
+
+        <div class="row">
+            <div class="col bg-info">
+                i am 2 units
+            </div>
+            <div class="col-7 bg-secondary">i am 8 too</div>
+            <div class="col bg-primary">i am 2 too</div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col bg-warning">col</div>
+                <div class="col bg-info">col</div>
+                <div class="w-100"></div>
+                <div class="col bg-dark">col</div>
+                <div class="col bg-info">col</div>
+                <div class="col bg-danger">col</div>
+            </div>
+        </div>
+
+        <h2 class="display-3">denemeler</h2>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum atque
+                    voluptatibus
+                    totam consectetur quo, amet illo laudantium sint obcaecati maiores necessitatibus, repellendus at
+                    vitae exercitationem tempora possimus tenetur, explicabo minima.
+                    Excepturi, voluptatem dolorum! Ut, quisquam consectetur rem ab laborum dolorum minus inventore
+                    recusandae tenetur adipisci aliquid neque distinctio suscipit officiis impedit laboriosam doloribus
+                    earum cum! Recusandae minima dolorum dolor sit!</div>
+                <div class="col-md-3 col-sm-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nobis
+                    eligendi
+                    debitis
+                    dolores
+                    iure, asperiores nostrum eveniet ullam quas facere natus at ducimus eum perspiciatis corporis eaque.
+                    Ipsa, nihil dignissimos.</div>
+                <div class="col-md-3 col-sm-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum atque
+                    voluptatibus
+                    totam consectetur quo, amet illo laudantium sint obcaecati maiores necessitatibus, repellendus at
+                    vitae exercitationem tempora possimus tenetur, explicabo minima.
+                    Excepturi, voluptatem dolorum! Ut, quisquam consectetur rem ab laborum dolorum minus inventore
+                    recusandae tenetur adipisci aliquid neque distinctio suscipit officiis impedit laboriosam doloribus
+                    earum cum! Recusandae minima dolorum dolor sit!</div>
+                <div class="col-md-3 col-sm-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nobis
+                    eligendi
+                    debitis
+                    dolores
+                    iure, asperiores nostrum eveniet ullam quas facere natus at ducimus eum perspiciatis corporis eaque.
+                    Ipsa, nihil dignissimos.</div>
+            </div>
+        </section>
+
+        <div class="container">
+            <h1> merhabalar images</h1>
+            <div class="row no-gutters">
+                <div class="col-xl-4 col-md-6 mb-4">
+                    <img class="img-fluid"
+                        src="https://images.unsplash.com/photo-1589595363745-d842812a9db7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                        alt="">
+                </div>
+
+                <div class="col-xl-4 col-md-6 mb-4">
+                    <img class="img-fluid"
+                        src="https://images.unsplash.com/photo-1511692277506-3be3a7ab1686?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                        alt="">
+                </div>
+                <div class="col-xl-4 col-md-6 mb4">
+                    <img class="img-fluid"
+                        src="https://images.unsplash.com/photo-1497206365907-f5e630693df0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                        alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container ">
+
+            <div class="row d-flex align-items-center badge-secondary">
+                <div class="col-md-3 col-sm-6 bg-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+                    atque
+                    voluptatibus
+                    totam consectetur quo, amet illo laudantium sint obcaecati maiores necessitatibus, repellendus at
+                    vitae exercitationem tempora possimus tenetur, explicabo minima.
+                    Excepturi, voluptatem dolorum! Ut, quisquam consectetur rem ab laborum dolorum minus inventore
+                    recusandae tenetur adipisci aliquid neque distinctio suscipit officiis impedit laboriosam doloribus
+                    earum cum! Recusandae minima dolorum dolor sit!</div>
+                <div class="col-md-3 col-sm-6 bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                    nobis
+                    eligendi
+                    debitis
+                    dolores
+                    iure, asperiores nostrum eveniet ullam quas facere natus at ducimus eum perspiciatis corporis eaque.
+                    Ipsa, nihil dignissimos.</div>
+                <div class="col-md-3 col-sm-6 bg-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+                    atque
+                    voluptatibus
+                    totam consectetur quo, amet illo laudantium sint obcaecati maiores necessitatibus, repellendus at
+                    vitae exercitationem tempora possimus tenetur, explicabo minima.
+                    Excepturi, voluptatem dolorum! Ut, quisquam consectetur rem ab laborum dolorum minus inventore
+                    recusandae tenetur adipisci aliquid neque distinctio suscipit officiis impedit laboriosam doloribus
+                    earum cum! Recusandae minima dolorum dolor sit!</div>
+                <div class="col-md-3 col-sm-6 bg-primary align-self-start">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Rem
+                    nobis
+                    eligendi
+                    debitis
+                    dolores
+                    iure, asperiores nostrum eveniet ullam quas facere natus at ducimus eum perspiciatis corporis eaque.
+                    Ipsa, nihil dignissimos.</div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+        <div class="container mt-5 ">
+
+            <div
+                class="row d-flex align-items-center badge-secondary justify-content-center justify-content-md-between justify-content-lg-around">
+                <div class="col-md-3 col-sm-6 bg-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+                    atque
+                    voluptatibus
+                    totam consectetur quo, amet illo laudantium sint obcaecati maiores necessitatibus, repellendus at
+                    vitae exercitationem tempora possimus tenetur, explicabo minima.
+                    Excepturi, voluptatem dolorum! Ut, quisquam consectetur rem ab laborum dolorum minus inventore
+                    recusandae tenetur adipisci aliquid neque distinctio suscipit officiis impedit laboriosam doloribus
+                    earum cum! Recusandae minima dolorum dolor sit!</div>
+                <div class="col-md-3 col-sm-6 bg-warning align-self-center">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Rem
+                    nobis
+                    eligendi
+                    debitis
+                    dolores
+                    iure, asperiores nostrum eveniet ullam quas facere natus at ducimus eum perspiciatis corporis eaque.
+                    Ipsa, nihil dignissimos.</div>
+            </div>
+
+
+            <form class="container mt-5">
+
+                <div class="form-row">
+
+                    <div class="form-group col-sm-4">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+
+
+                    <div class="input-group mb-2 col-sm-4 align-self-center">
+                        <label for="emr">
+                            <div class="input-group-prepend">
+
+                                <span class="input-group-text" id="basic-addon1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em"
+                                        fill="currentColor" class="bi bi-at text-danger" viewBox="0 0 16 16">
+                                        <path
+                                            d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z" />
+                                    </svg>
+                                </span>
+
+                            </div>
+                        </label>
+                        <input id="emr" type="text" class="form-control" placeholder="İsmi Giriniz"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="form-group col-sm-4">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group form-check col-sm-2">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+
+
+                    <div class="mb-4 col-sm-6">
+                        <label for="state">States</label>
+                        <select class="form-control" name="state" id="state">
+                            <option value="AL">Alabama</option>
+                            <option value="MA">Marmaris</option>
+                            <option value="NY">New York</option>
+                            <option value="SM">Samsun</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <h4>Seçelim Bakalım</h1>
+                        <input class="custom-control-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1" checked>
+                        <label class="custom-control-label" for="exampleRadios1">
+                            Default radio
+                        </label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option2">
+                    <label class="custom-control-label" for="exampleRadios2">
+                        Second default radio
+                    </label>
+                </div>
+                <div class="custom-control custom-checkbox mb-4 ">
+                    <input class="custom-control-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                        value="option3" disabled>
+                    <label class="custom-control-label" for="exampleRadios3">
+                        Disabled radio
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+
+
+
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+                integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
